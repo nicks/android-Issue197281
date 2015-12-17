@@ -32,40 +32,15 @@
 
 
             <TextView
+                android:id="@+id/text_intro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:autoLink="all"
                 android:text="@string/intro" />
 
-            <!-- text_auto_linkify automatically linkifies things like URLs and phone numbers. -->
-            <TextView
-                android:id="@+id/text_auto_linkify"
-                style="@style/LinkText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="all"
-                android:text="@string/link_text_auto" />
-
-            <!--
-                   text_html_resource uses a string resource containing explicit anchor tags (<a>)
-                   to specify links.
-            -->
-            <TextView
-                android:id="@+id/text_html_resource"
-                style="@style/LinkText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
-            <!-- text_html_program builds the text in the Java code using HTML. -->
-            <TextView
-                android:id="@+id/text_html_program"
-                style="@style/LinkText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <!-- text_spannable builds the text in the Java code without using HTML. -->
             <TextView
                 android:id="@+id/text_spannable"
-                style="@style/LinkText"
+                android:paddingTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>

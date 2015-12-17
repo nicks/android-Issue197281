@@ -16,15 +16,5 @@
 -->
 
 <resources>
-    <string name="app_name">TextLinkify</string>
-    <string name="intro_message">
-        <![CDATA[
-        
-            
-            This sample illustrates how links can be added to a TextView. This can be done either
-            automatically by setting the "autoLink" property or explicitly.
-            
-        
-        ]]>
-    </string>
+    <string name="app_name">LineBackgroundSpan bug</string>
 </resources>
